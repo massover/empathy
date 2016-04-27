@@ -4,15 +4,51 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Empathy | A Voxy Product</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+
+        html, body, .outer {
+            margin: 0;
+            height: 100%;
+
+        }
+        .outer {
+            background-image: url('empathy.jpg');
+            background-size: auto 100%;
+            background-position: 50%;
+
+        }
+        .inner {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            margin: 0 auto;
+            width: 100%;
+            max-width: 520px;
+            background-color: rgba(255, 255, 255, .75);
+            border-radius: 2em;
+        }
+    </style>
+
   </head>
 
   <body>
-    <div class="container text-center">
-        <img src="https://drfglkcvoj903.cloudfront.net/static_6a03e1686173babdf3158c39e2a48e7b/img/compare/Voxy_logo.png"
-                style="margin: 60px;">
-        <div class="row">
-            <a class="twitter-timeline" href="https://twitter.com/search?q=english%20is%20difficult" data-widget-id="725006618065264640">Tweets about english is difficult</a>
+    <div class="container-fluid outer">
+        <div class="inner text-center">
+            <img class="logo" src="voxy-logo.png"/>
+            <a
+                class="twitter-timeline"
+                href="https://twitter.com/search?q=english%20is%20difficult"
+                data-widget-id="725006618065264640"
+                data-chrome="transparent"
+            >
+                Tweets about english is difficult
+            </a>
         </div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
