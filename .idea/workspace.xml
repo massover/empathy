@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< 7bd1f64719647bdbbbe1ba5ab83e653441c4d831
     <list default="true" id="80348c0a-f27d-47be-826d-73aaf9b0030a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/empathy.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voxy-logo.png" />
@@ -13,6 +14,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
+=======
+    <list default="true" id="80348c0a-f27d-47be-826d-73aaf9b0030a" name="Default" comment="" />
+>>>>>>> make pretty
     <ignored path="empathy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
